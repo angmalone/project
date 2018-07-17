@@ -1,17 +1,17 @@
-const Job = require("./jobs");
-const jobData = require("./jobs.json");
-const Company = require("./companies");
-const companyData = require("./companies.json");
+const Snack = require("./snacks");
+const snackData = require("./snacks.json");
+/*const Company = require("./companies");
+const companyData = require("./companies.json");*/
 
-/*Job.remove({})
+Snack.remove({})
   .then(() => {
-    return Job.collection.insert(jobData);
+    return Snack.collection.insert(snackData);
   })
   .then(() => {
     process.exit();
   });
 
-Company.remove({})
+/*Company.remove({})
   .then(() => {
     return Company.collection.insert(companyData);
   })
